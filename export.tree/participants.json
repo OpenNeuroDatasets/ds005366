@@ -1,0 +1,31 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "handedness": {
+        "Description": "Dominant hand of the participant",
+        "Levels": {
+            "R": "Right",
+            "L": "Left",
+            "A": "Ambidextrous"
+        }
+    },
+    "participant_type": {
+        "Description": "Reason for data collection from the participant",
+        "Levels": {
+            "healthy": "Healthy volunteer",
+            "patient": "Participant with neurological condition that led for hospital admission and data acquisition"
+            }
+    }
+}
